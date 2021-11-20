@@ -6,17 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        #box {
-            background-color: blue;
-            width: 100px;
-            height: 100px;
-            padding: 100px;
+        #header {
+            background-color: deepskyblue;
         }
-        </style>
+        #main1 {
+            background-color: dimgray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+        }
+        .number {
+            background-color: firebrick;
+            margin: 10px;
+        }
+        .box {
+            background-color: forestgreen;
+            margin: 10px;
+            width: 100px;
+        }
+    </style>
 </head>
 <body>
-    <div>안녕하세요</div>
-    <div id="box"></div>
-    
+   <div id="header">header</div>
+   <div style="display:flex">
+    <div id="main1"></div>
+    <div class="number">1</div>
+    <div class="number">2</div>
+    <div class="number">3</div>
+</div>
+<div id="main2">
+    <div class="box">left</div>
+    <div class="box">right</div>
+</div>
+    </div>
+        
 </body>
 </html>
